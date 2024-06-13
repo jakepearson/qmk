@@ -17,7 +17,7 @@ jobs:
           keyboard: crkbd/rev1
           keymap: default
           controller: helios
-          local-keymap-path: corne/baloney
+          local-keymap-path: corne/baloney/stink
 
       - uses: actions/upload-artifact@v4
         with:
