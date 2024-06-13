@@ -23,4 +23,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: built-images
-          path: output-qmkrf
+          path: output-qmk
