@@ -17,10 +17,9 @@ jobs:
           keyboard: crkbd/rev1
           keymap: default
           controller: helios
-          local-keymap-path: keymaps
-          output-dir: output-qmk
+          local-keymap-path: keymap
 
       - uses: actions/upload-artifact@v4
         with:
           name: built-images
-          path: output-qmk
+          path: qmk-output
