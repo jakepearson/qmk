@@ -15,7 +15,7 @@ jobs:
       - uses: d3adb5/build-qmk-fw@v1
         with:
           keyboard: crkbd/rev1
-          keymap: default
+          keymap: stink
           controller: helios
           local-keymap-path: corne/baloney/stink
 
