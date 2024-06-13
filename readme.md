@@ -1,6 +1,6 @@
 # Corne Keyboard (CRKBD)
 
-Also known (incorrectly) as the `HeliDox`. 
+Also known (incorrectly) as the `HeliDox`.
 
 ![Crkbd](https://user-images.githubusercontent.com/736191/40575636-6fba63a4-6123-11e8-9ca0-3f990f1f9f4c.jpg)
 
@@ -24,12 +24,13 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 The Corne PCBs have a reset button next to the TRRS jack to enter in to the bootloader.
 
-Additionally, if you hold down the "Q" or "P" buttons when plugging in that half of the keyboard (per the default QWERTY layout), this will jump to the bootloader and reset the EEPROM (persistent storage).  This would normally be the very top corner-most position, but due to the breakaway column, it's left at Q and P for compatibility. 
+Additionally, if you hold down the "Q" or "P" buttons when plugging in that half of the keyboard (per the default QWERTY layout), this will jump to the bootloader and reset the EEPROM (persistent storage).  This would normally be the very top corner-most position, but due to the breakaway column, it's left at Q and P for compatibility.
 
-## RGB Matrix 
-The Corne Keyboard also supports using the RGB Matrix feature, in place of RGB Light.  This provides a better experience when using the keyboard, as it supports a number of per key effects properly.  If you're not using the in switch LEDs, then you may want to pass on doing this. 
+## RGB Matrix
 
-In your keymap's `rules.mk` file, add the following: 
+The Corne Keyboard also supports using the RGB Matrix feature, in place of RGB Light.  This provides a better experience when using the keyboard, as it supports a number of per key effects properly.  If you're not using the in switch LEDs, then you may want to pass on doing this.
+
+In your keymap's `rules.mk` file, add the following:
 
 ```make
 RGBLIGHT_ENABLE = no
@@ -106,4 +107,4 @@ And in your `config.h` file, add the following:
 #endif
 ```
 
-After this is done, you should be able to use the normal RGB keycodes, but you'll see the RGB Matrix effects in use, giving a much better experience. 
+After this is done, you should be able to use the normal RGB keycodes, but you'll see the RGB Matrix effects in use, giving a much better experience.
