@@ -17,7 +17,7 @@ jobs:
           keyboard: crkbd/rev1
           keymap: default
           controller: helios
-          local-keymap-path: corne
+          local-keymap-path: corne/keymaps/default
 
       - uses: actions/upload-artifact@v4
         with:
