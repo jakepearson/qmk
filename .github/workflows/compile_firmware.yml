@@ -18,9 +18,9 @@ jobs:
           keymap: default
           controller: helios
           local-keymap-path: keymaps/default
-          output-dir: qmk-firmware-to-be-flashed
+          output-dir: output-qmk
 
       - uses: actions/upload-artifact@v4
         with:
           name: built-images
-          path: qmk-firmware-to-be-flashed
+          path: output-qmk
