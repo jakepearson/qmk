@@ -15,9 +15,9 @@ jobs:
       - uses: d3adb5/build-qmk-fw@v1
         with:
           keyboard: crkbd/rev1
-          keymap: stink
+          keymap: ollie
           controller: helios
-          local-keymap-path: corne/baloney/stink
+          local-keymap-path: corne/map/ollie
 
       - uses: actions/upload-artifact@v4
         with:
